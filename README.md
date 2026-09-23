@@ -15,7 +15,7 @@ The dashboard and its underlying architecture were built using the following too
 *  **DAX (Data Analysis Expressions)** – Utilized for calculated measures and to implement dynamic Row-Level Security (RLS) using the `USERPRINCIPALNAME` function.
 *  **Data Governance & Security** – Applied Confidential sensitivity labels to protect personal data and ensure compliance.
 
-## 4. Data Source
+## Data Source
 
 **Source:** IBM HR Analytics Employee Attrition & Performance Dataset.
 The dataset consists of 1,470 employee records containing comprehensive attributes covering demographics, job characteristics, compensation, and historical performance. Key structured columns include: `Age`, `Attrition`, `BusinessTravel`, `DailyRate`, `Department`, `DistanceFromHome`, `Education`, `EducationField`, `EnvironmentSatisfaction`, `Gender`, `HourlyRate`, `JobInvolvement`, `JobLevel`, `JobRole`, `JobSatisfaction`, `MaritalStatus`, `MonthlyIncome`, `NumCompaniesWorked`, `OverTime`, `PercentSalaryHike`, `PerformanceRating`, `RelationshipSatisfaction`, `TotalWorkingYears`, `TrainingTimesLastYear`, `WorkLifeBalance`, `YearsAtCompany`, `YearsInCurrentRole`, `YearsSinceLastPromotion`, and `YearsWithCurrManager`.
@@ -53,6 +53,7 @@ To deliver a secure, interactive visual tool that highlights key attrition drive
 * **Strategic Policy Adjustments:** Insights into how business travel frequency or specific departments correlate with turnover can inform better recruitment strategies, expectation-setting, and work-life balance policies.
 
 ### Screenshots 
-Here is the screenshot of the dashboard after published in Fabric.
- ![Dashboard Preview](https://github.com/raaisurahman/hr_attrition_analysis/blob/main/snapshot%20of%20dashboard's%20deepdive%20page.png)
+Here are the screenshots of the dashboard after published in Fabric.
+
  ![Dashboard Preview](https://github.com/raaisurahman/hr_attrition_analysis/blob/main/snapshot%20of%20dashboard's%20overview%20page.png)
+  ![Dashboard Preview](https://github.com/raaisurahman/hr_attrition_analysis/blob/main/snapshot%20of%20dashboard's%20deepdive%20page.png)
